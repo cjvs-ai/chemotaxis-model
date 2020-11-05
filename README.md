@@ -1,5 +1,5 @@
 # Summary
-The MATLAB program provided here numerically solves the coupled bacterial transport equations to model the distribution of bacterial cells exposed to a gradient of chemoattractant. Additionally the program implements a fitting procedure which can fit the model to experimental data and provide estimates for input parameters which are not obtained experimentally, specifically the random motility coefficient, the receptor/ligand dissociation constant, and the chemotactic sensitivity coefficient.
+The MATLAB program provided here (bacterialtransportsimulation.m) numerically solves the coupled bacterial transport equations to model the distribution of bacterial cells exposed to a gradient of chemoattractant. Additionally the program implements a fitting procedure which can fit the model to experimental data and provide estimates for input parameters which are not obtained experimentally, specifically the random motility coefficient, the receptor/ligand dissociation constant, and the chemotactic sensitivity coefficient.
 
 This program was produced as part of a Master of Physics project which investigated antibiotic challenge of spectinomycin and kanamycin for *Bacillus subtilis* swimming velocity and chemotaxis.
 
