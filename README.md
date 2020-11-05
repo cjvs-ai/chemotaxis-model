@@ -4,7 +4,7 @@ The MATLAB program provided here (bacterialtransportsimulation.m) numerically so
 This program was produced as part of a Master of Physics project which investigated antibiotic challenge of spectinomycin and kanamycin for *Bacillus subtilis* swimming velocity and chemotaxis.
 
 # Details
-The *pdepe* solver is used to solve the bacterial transport equations, which uses a variable-step variable-order solver to perform time integration (1). A homogenous intial distribution of bacteria is used as the initial condition and no-flux neumann boundary conditions are applied to both boundaries.
+The *pdepe* solver is used to solve the bacterial transport equations, which uses a variable-step variable-order solver to perform time integration (1). A homogenous intial distribution of bacteria is used as the initial condition and no-flux Neumann boundary conditions are applied to both boundaries.
 The fitting procedure minimises the discrepancy between predicted and measured bacteria distribution profiles, calculated as the sum of the squared error, using *fminsearch* which uses a Nelder-Mead simplex algorithm (2). Finally, the sum of squared error was found to be reduced significantly (roughly by a factor of 3) by disregarding the "tail" in the bacterial distribution profile from population exposed to a gradient of chemoattractant. Hence, the program also includes the option to disregard this "tail" when fitting.
 
 # Referenced Literature
