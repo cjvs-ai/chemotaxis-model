@@ -1,2 +1,2 @@
 # chemotaxis-model
-The MATLAB program provided here numerically solves the coupled bacterial transport equations to model the distribution of bacterial cells exposed to a chemoattractant.
+The MATLAB program provided here numerically solves the coupled bacterial transport equations to model the distribution of bacterial cells exposed to a chemoattractant. Additionally the program implements a fitting procedure which can fit the model to experimental data and provide estimates for input parameters which are not obtained experimentally, specifically the random motility coefficient, the recepotr/ligand dissociation constant, and the chemotactic sensitivity coefficient.
